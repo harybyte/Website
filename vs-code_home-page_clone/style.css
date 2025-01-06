@@ -128,7 +128,7 @@ h1 {
     color: #c3d0e5;
     max-width: 1050px;
     line-height: 130%;
-    margin: 60px 420px 30px 340px;
+    margin: 40px 330px 30px 340px;
 }
 
 .main-buttons {
@@ -163,9 +163,9 @@ h1 {
     align-items: center;
 }
 
-.hero-video-container {
+.vscode-video-container {
     width: 90%;
     box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, .36);
     margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 290px;
 }
