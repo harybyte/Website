@@ -1,0 +1,309 @@
+* {
+    font-family: "Inter", serif;
+    text-decoration: none;
+}
+
+html {
+    line-height: 1.7;
+}
+
+body {
+    padding: 65px;
+    min-width: 350px;
+    color: #424242;
+}
+
+div {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.row {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 1 auto;
+    flex-flow: row wrap;
+}
+
+.columns {
+    box-sizing: border-box;
+    flex: 0px 1px auto;
+}
+
+.navbar {
+    top: 0;
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 2px 1px 2px #eee;
+    perspective: 600px;
+}
+
+.container {
+    position: relative;
+    width: 1100px;
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.navbar .container {
+    padding: 0;
+}
+
+.navbar .brand-img {
+    max-height: 17px;
+    vertical-align: middle;
+    position: relative;
+    top: 30px;
+}
+
+.nav-menu {
+    display: flex;
+    float: left;
+}
+
+.nav-link li {
+    display: flex;
+    float: left;
+    padding: 12px;
+}
+
+.nav-link li a {
+    color: #666;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    text-align: right;
+    font-size: 13px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.nav-link li a:hover {
+    color: #387ed1;
+}
+
+
+.nav-link #nav-bar_menu {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+
+.navbar #menu_icon {
+    color: #666;
+    font-weight: 400;
+    display: inline-block;
+    padding: 20px 0;
+}
+
+.navbar #nav-icon {
+    width: 16px;
+    top: 7px;
+    position: relative;
+    margin: -25px auto;
+    cursor: pointer;
+}
+
+.navbar #nav-icon span {
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: #424242;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+}
+
+.navbar #nav-icon span:first-child {
+    top: 6px;
+}
+
+.navbar #nav-icon span:nth-child(3) {
+    top: 12px;
+}
+
+.navbar #nav-icon span:nth-child(4) {
+    top: 12px;
+}
+
+.homepage section {
+    padding: 0 20px 120px 20px;
+}
+
+.homepage section.landing {
+    margin: 10vh;
+}
+
+section.first-child {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.page {
+    text-align: center;
+}
+
+.landing-image {
+    margin-bottom: 60px;
+    max-height: 45vh;
+}
+
+section:first-child h1,
+section:first-child h2 {
+    margin-bottom: 0;
+}
+
+.landing-headtext {
+    font-size: 2.75rem;
+    line-height: 1.25;
+    margin-top: 0px;
+    margin: 0.67em;
+    font-weight: 500px;
+}
+
+.landing-subheading {
+    font-size: 1.25rem;
+    font-weight: 400px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.button {
+    color: white;
+    background-color: #387ed1;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.homepage section.features {
+    margin-top: 30px;
+}
+
+
+.mid-content {
+    align-items: center;
+}
+
+.homepage section.features .p1 h3 {
+    margin-bottom: 0px;
+    font-size: 1.25rem;
+}
+
+.homepage section.features .p1 p {
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+
+
+p {
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.text {
+    flex-basis: 39.333333%;
+    width: 39.3333333%;
+}
+
+.link {
+    flex-basis: 56.6666666667%;
+    width: 56.6666666667%;
+}
+
+.mid-img {
+    text-align: center;
+}
+
+.homepage section .product-img {
+    max-width: 100%;
+    width: auto;
+}
+
+.columns:first-child {
+    margin-left: 0px;
+}
+
+.v-align {
+    align-items: center;
+    display: flex;
+}
+
+.around {
+    justify-content: space-around;
+}
+
+.homepage .pricing .product-pricing {
+    display: inline-block;
+}
+
+.homepage .pricing .product-pricing p,
+img {
+    display: inline-block;
+    font-size: 10px;
+    margin: 0px;
+    color: #666;
+    line-height: 16px;
+}
+
+.homepage .pricing .product-pricing:nth-child(1),
+:nth-child(2) p {
+    position: relative;
+    left: -25px;
+}
+
+.homepage .pricing .product-pricing img {
+    width: 120px;
+    position: relative;
+    top: 22px;
+}
+
+.homepage .pricing .pricing-link {
+    margin: 0;
+    padding-left: 10px;
+}
+
+i{
+    font-style: italic;
+}
+
+.icon-right-arrow:before {
+    content: "→";
+}
+
+[class^=icon-]::before,
+[class*=" icon-"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: .2em;
+}
